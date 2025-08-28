@@ -1,0 +1,60 @@
+.App {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+label {
+  margin-right: 8px;
+  font-size: 1rem;
+}
+
+input[type="number"] {
+  width: 60px;
+  padding: 4px;
+  margin-left: 8px;
+}
+
+div {
+  margin-bottom: 16px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+h2 {
+  margin-bottom: 8px;
+  color: #007bff;
+}
+
+p {
+  word-break: break-all;
+  font-size: 1.2rem;
+  background: #e9ecef;
+  padding: 8px;
+  border-radius: 6px;
+  text-align: center;
+}
